@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.ProductDao">
+    <!--配置接口的查询方法-->
+    <select id="findAll" resultType="product" useCache="false">
+        SELECT * FROM product
+    </select>
+    <insert id="add" parameterType="product">
+        INSERT INTO
+        product(productNum,productName,departureTime,cityName,productPrice,productStatus,productDesc)
+        VALUES (#{productNum},#{productName},#{departureTime},#{cityName},#{productPrice},#{productStatus},#{productDesc})
+    </insert>
+</mapper>

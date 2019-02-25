@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--全局配置-->
+    <settings>
+        <!--开启Mybatis⽀持延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--开启⼆级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+    <!--对JavaBean设置别名-->
+    <typeAliases>
+        <package name="cn.itcast.domain"/>
+        <!--
+        <typeAlias type="com.itheima.domain.Account"
+        alias="account"></typeAlias>
+        -->
+    </typeAliases>
+    <!--配置分页插件pageHelper-->
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+            <property name="helperDialect" value="oracle"/>
+        </plugin>
+    </plugins>
+    <!--配置环境-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOlED">
+                <!--连接池在applicationContext.xml中配置-->
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置映射:在applicationContext中配置MapperScannerConfigurer-->
+
+
+</configuration>
