@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21f9fb98-343f-414a-b620-b668273c126a" name="Default Changelist" comment="version 1.0">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_web/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_domain/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_utils/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_dao/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="449901703">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="applicationContext-service" value="84" />
+          <entry key="gitignore" value="51" />
+          <entry key="java" value="963" />
+          <entry key="jsp" value="728" />
+          <entry key="txt" value="18" />
+          <entry key="xml" value="607" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Git file" value="51" />
+          <entry key="JAVA" value="963" />
+          <entry key="JSP" value="728" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="689" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="applicationContext-service" value="1" />
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="3" />
+          <entry key="java" value="10" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="7" />
+          <entry key="xml" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Git file" value="3" />
+          <entry key="JAVA" value="10" />
+          <entry key="JSP" value="7" />
+          <entry key="JavaScript" value="1" />
+          <entry key="XML" value="24" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Development/MavenRepository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>beans</find>
+      <find>products</find>
+      <find>新建</find>
+      <find>productList</find>
+      <find>toAdd</find>
+      <find>/forwardAdd.do</find>
+      <find>findAll</find>
+      <find>产品编号</find>
+      <find>save</find>
+      <find>itesms</find>
+      <find>iit</find>
+      <find>页</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_domain/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/cn/itcast/domain/Product.java" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/resources/applicationContext-domain.xml" />
+        <option value="$PROJECT_DIR$/ssm_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/cn/itcast/ProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/resources/applicationContext-service" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/resources/applicationContext-web.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/error.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/resources/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/cn/itcast/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/cn/itcast/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/cn/itcast/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/orders-list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/cn/itcast/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/resources/cn/itcast/dao/ProductDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/product-add.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/product-list.jsp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal -DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1679" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_super" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_super" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551072840349" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages" />
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp/plugins" />
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp/img" />
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/ssm_web/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="ssm_super" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="ssm_super" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat7:run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21f9fb98-343f-414a-b620-b668273c126a" name="Default Changelist" comment="" />
+      <created>1551057338067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551057338067</updated>
+      <workItem from="1551057344242" duration="7888000" />
+      <workItem from="1551066276302" duration="240000" />
+      <workItem from="1551067008168" duration="3489000" />
+      <workItem from="1551072393981" duration="362000" />
+    </task>
+    <task id="LOCAL-00001" summary="version 1.0">
+      <created>1551070950806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551070950806</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version 1.0">
+      <created>1551071072470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551071072470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11979000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1634" height="1027" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25879398" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987437" visible="true" weight="0.51016045" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49969456" weight="0.32941177" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012563" side_tool="true" visible="true" weight="0.51016045" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4987437" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.14698492" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ssm_utils/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_domain/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_dao/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/resources/applicationContext-domain.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/applicationContext-dao.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/mybatis.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/error.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/plugins/adminLTE/js/pages/dashboard.js" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/resources/applicationContext-service.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/aside.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/cn/itcast/domain/Product.java" />
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/cn/itcast/dao/ProductDao.java" />
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/cn/itcast/service/ProductService.java" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/product-add.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/applicationContext-web.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/springmvc.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/resources/cn/itcast/dao/ProductDaoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/cn/itcast/service/impl/ProductServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/orders-list.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/cn/itcast/controller/ProductController.java" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/pages/product-list.jsp" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="jar://$USER_HOME$/Development/MavenRepository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssm_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssm_utils</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
