@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.OrderDao">
+
+    <resultMap id="orderMap" type="order">
+        <id property="id" column="id" />
+        <result property="orderNum" column="orderNum"/>
+        <result property="orderTime" column="orderTime"/>
+        <result property="peopleCount" column="peopleCount"/>
+        <result property="payType" column="payType"/>
+        <result property="orderStatus" column="orderStatus"/>
+        <result property="productId" column="productId"/>
+        <result property="memberId" column="memberId"/>
+        <association property="product" column="productId" javaType="product">
+            <id property="id" column="productId" />
+            <result property="productNum" column="productNum"/>
+            <result property="productName" column="productName"/>
+            <result property="cityName" column="cityName"/>
+            <result property="departureTime" column="departureTime"/>
+            <result property="productPrice" column="productPrice"/>
+            <result property="productDesc" column="productDesc"/>
+            <result property="productStatus" column="productStatus"/>
+        </association>
+    </resultMap>
+    <!--配置接口的查询方法-->
+    <select id="findAll" resultMap="orderMap" useCache="false">
+        SELECT o.*,p.productName,p.productPrice
+        FROM orders o
+        JOIN product p ON o.productid = p.id
+    </select>
+</mapper>

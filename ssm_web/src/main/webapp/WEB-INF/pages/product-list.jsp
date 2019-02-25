@@ -324,8 +324,8 @@
 						<div class="pull-left">
 							<div class="form-group form-inline">
 								总共 ${productList.pages}页，共${productList.total} 条数据。 每页
-								<select class="form-control">
-									<c:forEach begin="5" end="10" varStatus="vs" var="index" step="5">
+								<select class="form-control" id="changePageSize">
+									<c:forEach begin="1" end="5" varStatus="vs" var="index" step="1">
 										<c:if test="${productList.size==index}">
 											<option selected="selected">${index}</option>
 										</c:if>
@@ -490,6 +490,11 @@
 				liObj.addClass("active");
 			}
 		}
+
+		$("#changePageSize").on("change",function(){
+		    var pageSize = $(this).val();
+		    location.href="${pageContext.request.contextPath}/product/findAll.do?pageSize=" + pageSize;
+		});
 
 		$(document).ready(function() {
 

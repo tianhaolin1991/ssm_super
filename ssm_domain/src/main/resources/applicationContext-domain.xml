@@ -8,5 +8,5 @@
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--开启注解的扫描，希望处理service和dao，controller不需要Spring框架去处理-->
-    <context:component-scan base-package="cn.itcast.domain"></context:component-scan>
+    <context:component-scan base-package="cn.itcast.domain"/>
 </beans>

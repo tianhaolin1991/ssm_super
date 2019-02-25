@@ -1,4 +1,5 @@
 <%--
+<%--
   Created by IntelliJ IDEA.
   User: tianhaolin1991
   Date: 2019/2/24
@@ -95,7 +96,7 @@
                     </li>
 
                     <li>
-                        <a href="${pageContext.request.contextPath}/order/findAllByPage.do?currentPage=1&pageSize=5">
+                        <a href="${pageContext.request.contextPath}/order/findAll.do">
                             <i class="fa fa-circle-o"></i> 订单管理
                         </a>
                     </li>

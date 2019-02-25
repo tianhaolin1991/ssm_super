@@ -242,7 +242,7 @@
 								<tbody>
 
 
-									<c:forEach items="${orderList.list}" var="orders">
+									<c:forEach items="${orderPageInfo.list}" var="orders">
 
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
@@ -465,7 +465,7 @@
 			var pageSize = $("#changePageSize").val();
 
 			//向服务器发送请求，改变没页显示条数
-			location.href = "${pageContext.request.contextPath}/orders/findAll.do?page=1&pageSize="
+			location.href = "${pageContext.request.contextPath}/orders/findAll.do?page=1"+ ${orderPageInfo.pageNum}+"&pageSize="
 					+ pageSize;
 		}
 		$(document).ready(function() {
