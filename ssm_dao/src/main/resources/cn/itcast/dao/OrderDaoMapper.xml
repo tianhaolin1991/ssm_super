@@ -9,6 +9,7 @@
         <result property="orderNum" column="orderNum"/>
         <result property="orderTime" column="orderTime"/>
         <result property="peopleCount" column="peopleCount"/>
+        <result property="orderDesc" column="orderDesc"/>
         <result property="payType" column="payType"/>
         <result property="orderStatus" column="orderStatus"/>
         <result property="productId" column="productId"/>
@@ -23,11 +24,28 @@
             <result property="productDesc" column="productDesc"/>
             <result property="productStatus" column="productStatus"/>
         </association>
+        <association property="member" column="memberId" javaType="member">
+            <id property="id" column="memberId" />
+            <result property="name" column="name"/>
+            <result property="nickname" column="nickname"/>
+            <result property="phoneNum" column="phoneNum"/>
+            <result property="email" column="email"/>
+        </association>
+        <collection property="travellerList" column="id" ofType="traveller" select="cn.itcast.dao.TravellerDao.findByOrderId">
+        </collection>
     </resultMap>
     <!--配置接口的查询方法-->
     <select id="findAll" resultMap="orderMap" useCache="false">
         SELECT o.*,p.productName,p.productPrice
         FROM orders o
         JOIN product p ON o.productid = p.id
+    </select>
+
+    <select id="findById" parameterType="String" resultMap="orderMap">
+        SELECT o.*,p.*,m.*
+        FROM orders o
+        JOIN product p ON o.productid = p.id
+        JOIN member m ON o.memberid = m.id
+        WHERE o.id = #{id}
     </select>
 </mapper>

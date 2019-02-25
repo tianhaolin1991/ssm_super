@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.dao.TravellerDao">
+
+    <select id="findById" parameterType="String" resultType="traveller">
+       SELECT * FROM traveller WHERE id = #{id}
+    </select>
+
+    <select id="findByOrderId" parameterType="String" resultType="traveller">
+        SELECT t.*
+        FROM ORDER_TRAVELLER o_t
+        JOIN TRAVELLER t on t.id = o_t.travellerid
+        WHERE o_t.orderid = #{orderid}
+    </select>
+</mapper>

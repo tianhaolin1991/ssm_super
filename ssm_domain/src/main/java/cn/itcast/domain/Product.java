@@ -1,5 +1,6 @@
 package cn.itcast.domain;
 
+import cn.itcast.utils.ConverterUtils;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
@@ -14,6 +15,16 @@ public class Product {
     private Double productPrice;
     private String productDesc;
     private Integer productStatus;
+    private String departureTimeStr;
+
+    public String getDepartureTimeStr() {
+        departureTimeStr = ConverterUtils.dateToStr(departureTime);
+        return departureTimeStr;
+    }
+
+    public void setDepartureTimeStr(String departureTimeStr) {
+        this.departureTimeStr = departureTimeStr;
+    }
 
     public String getId() {
         return id;
