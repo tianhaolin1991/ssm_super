@@ -4,8 +4,8 @@ import java.util.List;
 
 public class UserInfo {
     private String id;
-    private String username;
     private String email;
+    private String username;
     private String password;
     private String phoneNum;
     private int status;

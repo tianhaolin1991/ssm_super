@@ -18,7 +18,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping("/findAll.do")
+    @RequestMapping("/findAll")
     public ModelAndView findAll(@RequestParam(required=false) Integer currentPage,@RequestParam(required=false)Integer pageSize){
         List<Product> productList = productService.findAll(currentPage,pageSize);
         PageInfo<Product> productPageInfo = new PageInfo<>(productList);
@@ -28,14 +28,14 @@ public class ProductController {
         return modelAndView;
     }
 
-    @RequestMapping("/forwardAdd.do")
+    @RequestMapping("/forwardAdd")
     public String forwardAdd(){
         return "product-add";
     }
 
-    @RequestMapping("/add.do")
+    @RequestMapping("/add")
     public String add(Product product){
         productService.add(product);
-        return "forward:/product/findAll.do";
+        return "redirect:/product/findAll.do";
     }
 }

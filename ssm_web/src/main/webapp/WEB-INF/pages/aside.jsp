@@ -58,20 +58,20 @@
                 <ul class="treeview-menu">
 
                     <li>
-                        <a href="all-charts-chartjs.html">
+                        <a href="${pageContext.request.contextPath}/user/findAll.do">
                             <i class="fa fa-circle-o"></i> 用户管理
                         </a>
                     </li>
 
                     <li>
-                        <a href="all-charts-morris.html">
+                        <a href="${pageContext.request.contextPath}/role/findAll.do">
                             <i class="fa fa-circle-o"></i> 角色管理
                         </a>
                     </li>
 
                     <li>
-                        <a href="${pageContext.request.contextPath}/WEB-INF/pages/product-list.jsp">
-                            <i class="fa fa-circle-o"></i> 订单管理
+                        <a href="${pageContext.request.contextPath}/permission/findAll.do">
+                            <i class="fa fa-circle-o"></i> 权限管理
                         </a>
                     </li>
 

@@ -29,6 +29,8 @@
                 login-processing-url="/login.do"
                 default-target-url="/index.jsp"
                 authentication-failure-url="/failer.jsp"
+                username-parameter="username"
+                password-parameter="password"
         />
 
         <!-- 关闭跨域请求 -->

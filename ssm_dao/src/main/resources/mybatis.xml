@@ -20,13 +20,14 @@
         -->
     </typeAliases>
     <!--配置分页插件pageHelper-->
-    <plugins>
-        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+  <!--  <plugins>
+        &lt;!&ndash; com.github.pagehelper为PageHelper类所在包名 &ndash;&gt;
         <plugin interceptor="com.github.pagehelper.PageInterceptor">
-            <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+            &lt;!&ndash; 使用下面的方式配置参数，后面会有所有的参数介绍 &ndash;&gt;
             <property name="helperDialect" value="oracle"/>
+            <property name="reasonable" value="true"/>
         </plugin>
-    </plugins>
+    </plugins>-->
     <!--配置环境-->
     <environments default="mysql">
         <environment id="mysql">
