@@ -1,5 +1,6 @@
 package cn.itcast.dao;
 
+import cn.itcast.domain.Permission;
 import cn.itcast.domain.Role;
 import org.apache.ibatis.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,4 +31,15 @@ public interface RoleDao {
 
     @Insert("INSERT INTO role(roleName,roleDesc) VALUES(#{roleName},#{roleDesc})")
     void add(Role role);
+
+    @Select("SELECT * FROM role WHERE id = #{roleId}")
+    Role findById(String roleId);
+
+    @Select("SELECT * FROM permission WHERE id NOT IN"+
+            "(SELECT permissionId FROM role_permission WHERE roleId=#{roleId})")
+    List<Permission> findOtherPermissions(String id);
+
+
+    void addPermissionToRole(@Param("pid")String pid, @Param("rid")String rid);
+
 }
