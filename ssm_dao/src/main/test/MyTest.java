@@ -46,4 +46,17 @@ public class MyTest {
 
     }
 
+    @Test
+    public void testUserFindNoRole(){
+        List<Role> noRole = userDao.findOtherRoles("7EE54D89507F402A983C25A87BB1064D");
+        for (Role role : noRole) {
+            System.out.println(role);
+        }
+    }
+
+    @Test
+    public void testUserAddRoleToUser() {
+        userDao.addRoleToUser("8C82FA87D039474CA41EE9DFE89208DB", "0001");
+
+    }
 }

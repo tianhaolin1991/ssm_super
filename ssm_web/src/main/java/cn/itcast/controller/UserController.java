@@ -5,6 +5,7 @@ import cn.itcast.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -45,5 +46,19 @@ public class UserController {
         return modelAndView;
     }
 
+    @RequestMapping("/findUserByIdWithOtherRoles")
+    public ModelAndView findUserByIdAndAllRole(String id){
+        ModelAndView modelAndView = new ModelAndView();
+        UserInfo user = userService.findUserWithOtherRoles(id);
+        modelAndView.addObject("userWithOtherRoles",user);
+        modelAndView.setViewName("user-role-add");
+        return modelAndView;
+    }
+
+    @RequestMapping("/addRole")
+    public String addRoleToUser(String uid, @RequestParam(name="ids")List<String> roleIds){
+        userService.addRoleToUser(uid,roleIds);
+        return "redirect:/user/findAll.do";
+    }
 
 }

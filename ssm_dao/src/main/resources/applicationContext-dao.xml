@@ -16,14 +16,15 @@
     <import resource="classpath:applicationContext-domain.xml"/>
     <!--开启注解的扫描，希望处理service和dao，controller不需要Spring框架去处理-->
     <context:component-scan base-package="cn.itcast.dao"/>
+    <context:property-placeholder location="classpath*:oracle.properties"/>
     <!--Spring整合MyBatis框架-->
     <!--将myBaits的配置转移到Spring中,让Spring去管理-->
     <!--配置连接池-->
     <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
-        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver"/>
-        <property name="jdbcUrl" value="jdbc:oracle:thin:@192.168.12.222:1521:orcl"/>
-        <property name="user" value="itcast"/>
-        <property name="password" value="itcast"/>
+        <property name="driverClass" value="${oracle.driver}"/>
+        <property name="jdbcUrl" value="${oracle.url}"/>
+        <property name="user" value="${oracle.username}"/>
+        <property name="password" value="${oracle.password}"/>
     </bean>
 
     <!--配置SqlSessionFactory工厂-->

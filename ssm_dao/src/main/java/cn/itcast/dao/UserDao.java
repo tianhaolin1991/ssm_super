@@ -1,5 +1,6 @@
 package cn.itcast.dao;
 
+import cn.itcast.domain.Role;
 import cn.itcast.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
@@ -33,4 +34,13 @@ public interface UserDao {
     @Select("SELECT * FROM users WHERE id=#{id}")
     @ResultMap("userMap")
     UserInfo findById(String id);
+
+    @Select("SELECT * FROM role WHERE id NOT IN \n" +
+            "(SELECT roleid FROM users_role WHERE userid = #{id})")
+    List<Role> findOtherRoles(String id);
+
+    @Insert("INSERT INTO users_role(userId,roleId) VALUES(#{uid},#{rid})")
+    void addRoleToUser(@Param("uid")String uid,@Param("rid")String rid);
+
+    List<UserInfo> findByIds(List<String> ids);
 }

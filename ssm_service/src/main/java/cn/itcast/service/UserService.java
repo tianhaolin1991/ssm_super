@@ -12,5 +12,9 @@ public interface UserService extends UserDetailsService {
     void add(UserInfo user);
 
     UserInfo findById(String id);
+
+    UserInfo findUserWithOtherRoles(String id);
+
+    void addRoleToUser(String uid, List<String> roleIds);
 }
 
