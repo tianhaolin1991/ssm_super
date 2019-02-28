@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <!-- 页面meta -->
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>数据 - AdminLTE2定制版</title>
@@ -151,7 +151,7 @@
                                     <td>${p.url }</td>
                                     <td class="text-center">
                                         <a href="${pageContext.request.contextPath}/permission/findById.do?id=${p.id}" class="btn bg-olive btn-xs">详情</a>
-                                        <a href="${pageContext.request.contextPath}/permission/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加角色</a>
+                                        <a href="${pageContext.request.contextPath}/permission/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加加权限</a>
                                     </td>
                                 </tr>
                             </c:forEach>
