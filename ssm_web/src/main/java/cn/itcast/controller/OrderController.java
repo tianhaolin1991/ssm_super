@@ -18,7 +18,7 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
     @RequestMapping("/findAll")
-    public ModelAndView findAll(@RequestParam(required=false)Integer currentPage, @RequestParam(required=false)Integer pageSize){
+    public ModelAndView findAll(@RequestParam(defaultValue = "1")Integer currentPage, @RequestParam(defaultValue = "5")Integer pageSize){
         List<Order> orderList = orderService.findAll(currentPage,pageSize);
         PageInfo<Order> orderPageInfo = new PageInfo<>(orderList);
         ModelAndView modelAndView = new ModelAndView();

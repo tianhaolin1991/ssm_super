@@ -20,7 +20,6 @@ public class ProductController {
     private ProductService productService;
 
     @RequestMapping("/findAll")
-    @DenyAll
     public ModelAndView findAll(@RequestParam(required=false) Integer currentPage,@RequestParam(required=false)Integer pageSize){
         List<Product> productList = productService.findAll(currentPage,pageSize);
         PageInfo<Product> productPageInfo = new PageInfo<>(productList);

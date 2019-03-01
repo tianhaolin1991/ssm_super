@@ -49,7 +49,7 @@ public class UserController {
     }
 
     @RequestMapping("/findUserByIdWithOtherRoles")
-    public ModelAndView findUserByIdAndAllRole(String id){
+    public ModelAndView findUserByIdWithOtherRoles(String id){
         ModelAndView modelAndView = new ModelAndView();
         UserInfo user = userService.findUserWithOtherRoles(id);
         modelAndView.addObject("userWithOtherRoles",user);

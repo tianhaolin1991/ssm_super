@@ -25,14 +25,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <spring.version>5.0.2.RELEASE</spring.version>
+        <spring.version>5.1.4.RELEASE</spring.version>
         <slf4j.version>1.6.6</slf4j.version>
         <log4j.version>1.2.12</log4j.version>
         <mysql.version>5.1.44</mysql.version>
         <oracle.version>10.2.0.4.0</oracle.version>
         <mybatis.version>3.4.5</mybatis.version>
         <shiro.version>1.2.3</shiro.version>
-        <spring.security.version>5.0.1.RELEASE</spring.security.version>
+        <spring.security.version>5.1.2.RELEASE</spring.security.version>
     </properties>
 
     <!-- 锁定jar包版本,子模块如果需要再导入依赖时,可以不用再写version以保持版本一致-->

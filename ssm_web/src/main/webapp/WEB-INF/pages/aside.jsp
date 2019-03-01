@@ -1,3 +1,4 @@
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%--
 <%--
   Created by IntelliJ IDEA.
@@ -74,6 +75,15 @@
                             <i class="fa fa-circle-o"></i> 权限管理
                         </a>
                     </li>
+
+                    <security:authorize access="hasRole('ROLE_ADMIN')">
+                        <li>
+                            <a href="${pageContext.request.contextPath}/sysLog/findAll.do">
+                                <i class="fa fa-circle-o"></i> 日志管理
+                            </a>
+                        </li>
+                    </security:authorize>
+
 
                 </ul>
             </li>
