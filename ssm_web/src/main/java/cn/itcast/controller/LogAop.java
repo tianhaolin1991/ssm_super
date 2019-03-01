@@ -8,6 +8,8 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Component;
@@ -19,6 +21,7 @@ import java.util.Date;
 
 @Component
 @Aspect
+@Scope("request")
 public class LogAop {
 
     @Autowired
@@ -33,8 +36,6 @@ public class LogAop {
     @Pointcut("execution(* cn.itcast.controller.*.*(..))")
     private void pc() {
     }
-
-    ;
 
     @Before("pc()")
     public void doBefore(JoinPoint jp) throws NoSuchMethodException {
@@ -72,7 +73,6 @@ public class LogAop {
                 if(methodMapping != null){
                     String methodUrl = methodMapping.value()[0];
                     url = classUrl + methodUrl;
-
                 }
             }
             //3.获取方法名称
@@ -81,6 +81,7 @@ public class LogAop {
         //4.获取ip
         String ip = request.getRemoteAddr();
         //5.获取操作用户
+
         User user = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         String username = user.getUsername();
 
